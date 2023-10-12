@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-10-12T22:38:24 IST" name="Salesforce Test Automation Test Suite" finished-at="2023-10-12T22:47:15 IST" duration-ms="531028">
+    <groups>
+    </groups>
+    <test started-at="2023-10-12T22:38:24 IST" name="Salesforce CRM Test Cases" finished-at="2023-10-12T22:47:15 IST" duration-ms="531028">
+      <class name="com.salesforce.qa.testcases.OpportunityPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.salesforce.qa.testcases.OpportunityPageTest@70e29e14]" started-at="2023-10-12T22:44:35 IST" name="setUp" finished-at="2023-10-12T22:44:59 IST" duration-ms="24470" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="createOpportunity()[pri:1, instance:com.salesforce.qa.testcases.OpportunityPageTest@70e29e14]" started-at="2023-10-12T22:44:59 IST" name="createOpportunity" finished-at="2023-10-12T22:45:48 IST" duration-ms="49258" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOpportunity -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.salesforce.qa.testcases.OpportunityPageTest@70e29e14]" started-at="2023-10-12T22:45:48 IST" name="tearDown" finished-at="2023-10-12T22:45:59 IST" duration-ms="10928" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.salesforce.qa.testcases.OpportunityPageTest -->
+      <class name="com.salesforce.qa.testcases.AccountsPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.salesforce.qa.testcases.AccountsPageTest@6d6bc158]" started-at="2023-10-12T22:38:24 IST" name="setUp" finished-at="2023-10-12T22:38:52 IST" duration-ms="27501" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="createAccount()[pri:1, instance:com.salesforce.qa.testcases.AccountsPageTest@6d6bc158]" started-at="2023-10-12T22:38:52 IST" name="createAccount" finished-at="2023-10-12T22:39:42 IST" duration-ms="50437" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAccount -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.salesforce.qa.testcases.AccountsPageTest@6d6bc158]" started-at="2023-10-12T22:39:42 IST" name="tearDown" finished-at="2023-10-12T22:39:53 IST" duration-ms="11039" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.salesforce.qa.testcases.AccountsPageTest -->
+      <class name="com.salesforce.qa.testcases.CasesPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.salesforce.qa.testcases.CasesPageTest@3b1bb3ab]" started-at="2023-10-12T22:45:59 IST" name="setUp" finished-at="2023-10-12T22:46:24 IST" duration-ms="24866" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="createCase()[pri:1, instance:com.salesforce.qa.testcases.CasesPageTest@3b1bb3ab]" started-at="2023-10-12T22:46:24 IST" name="createCase" finished-at="2023-10-12T22:47:04 IST" duration-ms="39852" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCase -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.salesforce.qa.testcases.CasesPageTest@3b1bb3ab]" started-at="2023-10-12T22:47:04 IST" name="tearDown" finished-at="2023-10-12T22:47:15 IST" duration-ms="10996" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.salesforce.qa.testcases.CasesPageTest -->
+      <class name="com.salesforce.qa.testcases.CampaignsPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.salesforce.qa.testcases.CampaignsPageTest@7646731d]" started-at="2023-10-12T22:43:07 IST" name="setUp" finished-at="2023-10-12T22:43:33 IST" duration-ms="25761" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="createCampaign()[pri:1, instance:com.salesforce.qa.testcases.CampaignsPageTest@7646731d]" started-at="2023-10-12T22:43:33 IST" name="createCampaign" finished-at="2023-10-12T22:44:24 IST" duration-ms="51192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCampaign -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.salesforce.qa.testcases.CampaignsPageTest@7646731d]" started-at="2023-10-12T22:44:24 IST" name="tearDown" finished-at="2023-10-12T22:44:35 IST" duration-ms="10912" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.salesforce.qa.testcases.CampaignsPageTest -->
+      <class name="com.salesforce.qa.testcases.ContactsPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.salesforce.qa.testcases.ContactsPageTest@173b9122]" started-at="2023-10-12T22:39:53 IST" name="setUp" finished-at="2023-10-12T22:40:19 IST" duration-ms="25466" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="createContact()[pri:1, instance:com.salesforce.qa.testcases.ContactsPageTest@173b9122]" started-at="2023-10-12T22:40:19 IST" name="createContact" finished-at="2023-10-12T22:41:09 IST" duration-ms="50036" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContact -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.salesforce.qa.testcases.ContactsPageTest@173b9122]" started-at="2023-10-12T22:41:09 IST" name="tearDown" finished-at="2023-10-12T22:41:20 IST" duration-ms="10806" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.salesforce.qa.testcases.ContactsPageTest -->
+      <class name="com.salesforce.qa.testcases.LeadsPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.salesforce.qa.testcases.LeadsPageTest@7c18432b]" started-at="2023-10-12T22:41:20 IST" name="setUp" finished-at="2023-10-12T22:41:45 IST" duration-ms="25920" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="createLead()[pri:1, instance:com.salesforce.qa.testcases.LeadsPageTest@7c18432b]" started-at="2023-10-12T22:41:45 IST" name="createLead" finished-at="2023-10-12T22:42:56 IST" duration-ms="70569" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createLead -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.salesforce.qa.testcases.LeadsPageTest@7c18432b]" started-at="2023-10-12T22:42:56 IST" name="tearDown" finished-at="2023-10-12T22:43:07 IST" duration-ms="10832" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.salesforce.qa.testcases.LeadsPageTest -->
+    </test> <!-- Salesforce CRM Test Cases -->
+  </suite> <!-- Salesforce Test Automation Test Suite -->
+</testng-results>

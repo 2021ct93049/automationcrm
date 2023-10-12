@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Salesforce Test Automation Test Suite">
+
+
+	<test name="SalesforceCRM_SalesRep_TestExecution">
+		<classes>
+			<class name="com.salesforce.qa.testcases.salesRep.Accounts_SalesRep"></class>
+			<class name="com.salesforce.qa.testcases.salesRep.Contacts_SalesRep"></class>
+			<class name="com.salesforce.qa.testcases.salesRep.Leads_SalesRep"></class>
+			<class name="com.salesforce.qa.testcases.salesRep.Campaigns_SalesRep"></class>
+			<class name="com.salesforce.qa.testcases.salesRep.Opportunity_SalesRep"></class>
+			<class name="com.salesforce.qa.testcases.salesRep.Cases_SalesRep"></class>
+		</classes>
+		
+	</test>
+	
+</suite>
